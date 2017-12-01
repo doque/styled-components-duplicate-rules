@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mounts correctly with readOnly prop 1`] = `
+.c0:-moz-read-only,
+.c0:disabled {
+  background: lightgray;
+}
+
+.c0:read-only,
+.c0:disabled {
+  background: lightgray;
+}
+
+.c0::after {
+  content: "no";
+}
+
+<input
+  className="c0"
+  disabled={true}
+  readOnly={true}
+/>
+`;
